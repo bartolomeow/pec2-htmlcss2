@@ -2,8 +2,10 @@
 
 <html lang="en">
     <head>
-        <meta charset="utf-8" />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width" />
+        <title>Actors and Characters | The Orphan of Zhao</title>
         <link
             rel="stylesheet"
             type="text/css"
@@ -19,10 +21,8 @@
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"
         ></script>
-        <!-- do not remove this line! -->
-        <title>The Orphan of Zhao</title>
     </head>
-    <body class="bg">
+    <body>
         <!-- Navbar -->
         <nav
             class="
@@ -67,7 +67,7 @@
                     </li>
                     <li class="nav-item text-center">
                         <a
-                            class="btn btn-light btn-outline-dark m-1"
+                            class="btn btn-light btn-outline-dark m-1 active"
                             href="./blogarticle.html"
                             class="nav-link"
                             >Blog</a
@@ -84,24 +84,107 @@
                 </ul>
             </div>
         </nav>
-        <!-- Portada -->
+        <!-- Article -->
         <main>
-            <div class="col-12">
-                <img
-                    class="coverphoto"
-                    src="assets/images/Cover.jpg"
-                    alt="The Orphan of Zhao Cover"
-                />
-                <h1 class="text-center">
-                    <cite title="The Orphan of Zhao" class="shadowtext"
-                        >The Orphan of Zhao</cite
-                    >
-                </h1>
-                <p class="shadowtext">
-                    Come and see the "Chinese Hamlet", the first Chinese play to
-                    be translated in the West.
-                </p>
+            <!-- Blog Title section -->
+            <div class="bg blog-title">
+                <div class="article-title text-center">
+                    <h1 class="text-center p-4 col-12">
+                        The Most Interesting Blog Article
+                    </h1>
+                    <h3 class="text-muted text-center col-12">by Author One</h3>
+                </div>
             </div>
+            <!-- Content -->
+            <section class="article-content my-5">
+                <blockquote class="blockquote">
+                    <p class="blockquote-text h3">
+                        Far far away, behind the word mountains, far from the
+                        countries Vokalia and Consonantia, there live the blind
+                        texts.
+                    </p>
+                    <footer class="blockquote-footer my-3">
+                        Cheng Ying in
+                        <cite title="The Orphan of Zhao"
+                            >The Orphan of Zhao</cite
+                        >
+                    </footer>
+                </blockquote>
+                <p class="left">
+                    Far far away, behind the word mountains, far from the
+                    countries Vokalia and Consonantia, there live the blind
+                    texts. Separated they live in Bookmarksgrove right at the
+                    coast of the Semantics, a large language ocean. Far far
+                    away, behind the word mountains. Far far away, behind the
+                    word mountains, far from the countries Vokalia and
+                    Consonantia, there live the blind texts.
+                </p>
+                <hr />
+                <ol>
+                    <li>
+                        Item One <br />
+                        Far far away, behind the word mountains, far from the
+                        countries Vokalia and Consonantia, there live the blind
+                        texts. Separated they live in Bookmarksgrove right at
+                        the coast of the Semantics.
+                    </li>
+                    <li>
+                        Item Two <br />
+                        Far far away, behind the word mountains, far from the
+                        countries Vokalia and Consonantia, there live the blind
+                        texts. Separated they live in Bookmarksgrove right at
+                        the coast of the Semantics.
+                    </li>
+                    <li>
+                        Item Three <br />
+                        Far far away, behind the word mountains, far from the
+                        countries Vokalia and Consonantia, there live the blind
+                        texts. Separated they live in Bookmarksgrove right at
+                        the coast of the Semantics.
+                    </li>
+                </ol>
+                <hr />
+                <div class="d-flex justify-content-around">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <blockquote class="blockquote">
+                                <p class="blockquote-text h5">
+                                    Far far away, behind the word mountains, far
+                                    from the countries Vokalia and Consonantia,
+                                    there live the blind texts.
+                                </p>
+                            </blockquote>
+                        </div>
+                        <div class="col-lg-7">
+                            <p class="left">
+                                Far far away, behind the word mountains, far
+                                from the countries Vokalia and Consonantia,
+                                there live the blind texts. Separated they live
+                                in Bookmarksgrove right at the coast of the
+                                Semantics, a large language ocean. Far far away,
+                                behind the word mountains. Far far away, behind
+                                the word mountains, far from the countries
+                                Vokalia and Consonantia, there live the blind
+                                texts.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <figure class="figure justify-content-center">
+                <img
+                    src="assets/images/ArticlePhoto.jpg"
+                    class="figure-img img-fluid mx-auto d-block px-4 rounded"
+                    alt="The Best Picture for the Best Article"
+                />
+                <figcaption class="figure-caption">
+                    Far far away, behind the word mountains, far from the
+                    countries Vokalia and Consonantia, there live the blind
+                    texts. Separated they live in Bookmarksgrove right at the
+                    coast of the Semantics, a large language ocean. Far far
+                    away, behind the word mountains.
+                </figcaption>
+            </figure>
         </main>
         <!-- Footer -->
         <footer class="shadow bg-light-footer text-center pb-3">
@@ -146,6 +229,7 @@
                                 btn btn-light btn-outline-dark
                                 m-1
                                 footer-buttons
+                                active
                             "
                             href="./blogarticle.html"
                             class="nav-link"
